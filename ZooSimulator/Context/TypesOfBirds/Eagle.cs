@@ -11,6 +11,7 @@ namespace ZooSimulator.Context.TypesOfBirds
     {
         public float Speed { get; set; }
         public float Vision_range { get; set; }
+        //Extracting the  IFlight from the parent class using base keyword.
         public Eagle(IFlight flighttype) : base(flighttype)
         {
         }

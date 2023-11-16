@@ -27,7 +27,9 @@ namespace ZooSimulator.Context
             //delegate to performFly behaviour
             flighttype.PerformFly();
         }
-        public void setPerformFly(IFlight flighttype)
+        
+        // Making setters for perfomfly.
+        public void SetPerformFly(IFlight flighttype)
         {
             this.flighttype = flighttype;
         }

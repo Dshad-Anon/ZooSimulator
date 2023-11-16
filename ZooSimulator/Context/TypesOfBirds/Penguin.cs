@@ -9,6 +9,7 @@ namespace ZooSimulator.Context.TypesOfBirds
 {
     internal class Penguin : Bird
     {
+        //Extracting the  IFlight from the parent class using base keyword.
         public Penguin(IFlight flighttype) : base(flighttype)
         {
         }

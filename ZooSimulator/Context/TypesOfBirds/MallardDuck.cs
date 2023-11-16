@@ -13,6 +13,7 @@ namespace ZooSimulator.Context.TypesOfBirds
     /// </summary>
     internal class MallardDuck : Bird
     {
+        //Extracting the  IFlight from the parent class using base keyword.
         public MallardDuck(IFlight flighttype) : base(flighttype)
         {
         }

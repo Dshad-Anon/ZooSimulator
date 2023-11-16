@@ -11,6 +11,8 @@ namespace ZooSimulator.Context.TypesOfBirds
     {
         public string? Height { get; set; }
         public string? Speed { get; set; }
+
+        //Extracting the  IFlight from the parent class using base keyword.
         public Ostrich(IFlight flighttype) : base(flighttype)
         {
         }
